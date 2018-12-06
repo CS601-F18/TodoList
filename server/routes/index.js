@@ -5,5 +5,6 @@ module.exports = (app) => {
     message: 'Welcome to the Todos API!',
   }));
 
+  app.get('/api/todos', todosController.list);
   app.post('/api/todos', todosController.create);
 };
