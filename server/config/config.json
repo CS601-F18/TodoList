@@ -1,13 +1,19 @@
 {
   "development": {
-    "use_env_variable": "postgres://vakzyecr:3SlsS8g_RErAlrrm8EU9znlJ0DAYptmG@baasu.db.elephantsql.com:5432/vakzyecr"
+    "username": "nina",
+    "password": "1",
+    "database": "todos-dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
   },
   "test": {
-    "username": "root",
+    "username": "nina",
     "password": null,
-    "database": "database_test",
+    "database": "todos-test",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "port": 5432,
+    "dialect": "postgres"
   },
   "production": {
     "username": "root",
