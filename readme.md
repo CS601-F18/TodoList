@@ -49,6 +49,10 @@ If todos-dev doesn't exist, create by
 ```
 $ createdb todos-dev
 ```
+then create tables by 
+```
+$ sequelize db:migrate
+```
 
 If todos-dev exists and you want to clear, 
 ```
