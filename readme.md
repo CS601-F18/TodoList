@@ -72,7 +72,7 @@ $ select * from "[table name]";
 use postman.
 1. send a GET request to /api => should see the message 'Welcome to the Todos API!'
 2. send a GET request to /api/todos => should see a list of all todos
-3. send a POST request to /api/todos => should see a new todo
+3. send a POST request to /api/todos => should see a new todo. If title is not specified, will return 400 Bad Request.
 body format:
 ```
 {"title":"second-todo"}
