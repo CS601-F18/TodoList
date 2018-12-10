@@ -93,6 +93,7 @@ body format:
 
 ## Built With
 
+[reference](https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize)
 * [NodeJS](https://nodejs.org/en/) - server
 * [Express](https://expressjs.com/) - web framework
 * [PostgreSQL](https://www.postgresql.org/) - database
