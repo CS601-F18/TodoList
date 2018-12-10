@@ -56,11 +56,11 @@ $ sequelize db:migrate
 
 If todos-dev exists and you want to clear, 
 ```
-$ drop database "todos-dev";
+$ drop database "todos";
 ```
 If todos-dev exists and you don't want to clear, switch database to todos-dev.
 ```
-$ \c todos-dev;
+$ \c todos;
 ```
 View all tables.
 ```
