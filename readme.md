@@ -28,19 +28,14 @@ then run the app by executing
 ```
 $ npm run start:dev
 ```
-Open up Postman, send a GET request to /api
 
-```
-$ npm run start:dev
-```
 
 ## Running the tests
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+### To test database
 
-To test database,
 ```
 $ psql
 ```
@@ -60,7 +55,8 @@ $ \d "[table name]"
 $ select * from [table name];
 ```
 
-To test correctness of HTTP request/response, use postman.
+### To HTTP request/response
+use postman.
 1. send a GET request to /api => should see the message 'Welcome to the Todos API!'
 2. send a GET request to /api/todos => should see a list of all todos
 3. send a POST request to /api/todos => should see a new todo
