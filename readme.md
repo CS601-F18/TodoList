@@ -65,7 +65,7 @@ $ \dt
 Go to a specific table.
 ```
 $ \d "[table name]"
-$ select * from [table name];
+$ select * from "[table name]";
 ```
 
 ### To HTTP request/response
