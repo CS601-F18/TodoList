@@ -40,8 +40,21 @@ Explain how to run the automated tests for this system
 $ psql
 ```
 to get into postgres. 
+```
+$ \l
+```
+to view all databases.
 
-Switch database to todos-dev.
+If todos-dev doesn't exist, create by
+```
+$ createdb todos-dev
+```
+
+If todos-dev exists and you want to clear, 
+```
+$ drop database "todos-dev";
+```
+If todos-dev exists and you don't want to clear, switch database to todos-dev.
 ```
 $ \c todos-dev;
 ```
