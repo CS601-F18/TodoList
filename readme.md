@@ -89,6 +89,7 @@ body format:
 {"title":"UPDATED fitst-todo"}
 ```
 7. send a DELETE request to /api/todos/:todoId => should see :todoId deleted. Must replace :todoId with a number.
+8. send a DELETE request to /api/todos/:todoId/items/:todoItemId => should see :todoItemId deleted. Must replace :todoItemId with a number.
 
 
 ## Built With
