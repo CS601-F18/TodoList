@@ -68,7 +68,7 @@ $ \d "[table name]"
 $ select * from "[table name]";
 ```
 
-### To HTTP request/response
+### To test HTTP request/response
 use postman.
 1. send a GET request to /api => should see the message 'Welcome to the Todos API!'
 2. send a GET request to /api/todos => should see a list of all todos
